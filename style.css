@@ -33,6 +33,7 @@
    background-color: #63C5DA;
    background-image: linear-gradient(to top, #fff 0%, #63C5DA 100%);
    -webkit-background-clip: text;
+   background-clip: text;
 
  -moz-background-clip: text;
 
