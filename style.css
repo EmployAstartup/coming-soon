@@ -15,6 +15,7 @@
      position: sticky;
      top: 0;
      z-index: 999;
+     border-bottom: 1px solid white;
     }
   
   .navbar__container  {
@@ -373,7 +374,6 @@
 .signup {
 
   width: 100%;
-
   background: #1338BE;
   color: #fff;
   
@@ -386,16 +386,25 @@
 .signup__heading {
   font-weight: bold;
   text-align: center;
+  margin-bottom: 50px;
 }
 .signup__text {
   text-align: center;
+  margin-bottom: 70px;
 }
+
 .signup__input {
    border: 2px solid #1338BE;
    width: 450px;
    padding: 15px 10px;
    border-radius: 10px;
+   
 }
+
+.email-div {
+  text-align: center;
+}
+
 .signup__input::placeholder {
   color: #444;
 }
@@ -410,6 +419,11 @@
   color: #1338BE;
 }
 
+.signup__button:hover {
+  color: white;
+  background: #3755c0 ;
+}
+
 @media screen and (max-width: 960px) {
   .signup {
     width: 100%;
@@ -420,7 +434,7 @@
   }
   .signup__input {
     width: 90%;
-    padding: 15px 10px:
+    padding: 15px 10px;
     margin-bottom: 30px;
     
   }
@@ -430,7 +444,7 @@
   }
 }
 .footer {
-  background-color: #fff;
+  background-color: #ffffff;
   height: auto;
   width: 100%;
  display: block;
